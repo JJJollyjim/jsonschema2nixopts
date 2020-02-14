@@ -1,0 +1,12 @@
+[package]
+name = "jsonschema2nixopts"
+version = "0.1.0"
+authors = ["Jamie McClymont <jamie@kwiius.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_yaml = "0.8.11"
+serde = { version = "1.0.104", features = ["derive"] }
+nixpkgs-fmt = "0.7.0"
